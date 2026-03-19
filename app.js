@@ -10,6 +10,9 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.redirect('/bootcamp-repos');
+});
 app.use('/bootcamp-repos', routes);
 
 dbConnection();
