@@ -18,6 +18,7 @@ Esta API proporciona endpoints para crear, obtener y gestionar repositorios alma
 
 ## 📦 Estructura del proyecto
 
+```
 src/  
   config/  
     db.js  
@@ -29,6 +30,7 @@ src/
     bootcampRepoController.js  
 
 app.js  
+```
 
 ---
 
@@ -45,15 +47,21 @@ MONGO_URI=tu_cadena_de_conexion_a_mongodb
 
 ### 1. Instalar dependencias
 
+```
 npm install
+```
 
 ### 2. Ejecutar en desarrollo
 
+```
 npm run dev
+```
 
 ### 3. Ejecutar en producción
 
+```
 npm start
+```
 
 ---
 
@@ -140,5 +148,4 @@ Se prevé su evolución con nuevas funcionalidades como:
 
 ## 👤 Autor
 
-David Baquero
-🔗 https://www.davidbaquero.com
+[David Baquero](https://www.davidbaquero.com)
