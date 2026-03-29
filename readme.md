@@ -38,8 +38,10 @@ app.js
 
 Crea un archivo `.env` en la raíz del proyecto:
 
+```
 PORT=puerto  
 MONGO_URI=tu_cadena_de_conexion_a_mongodb  
+```
 
 ---
 
