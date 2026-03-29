@@ -4,6 +4,6 @@ const bootcampRepoController = require('../controllers/bootcampRepoController');
 
 router.get('/', bootcampRepoController.getAll);
 router.post('/', bootcampRepoController.create);
-router.get('/:_id', bootcampRepoController.getById);
+router.get('/:slug', bootcampRepoController.getBySlug);
 
 module.exports = router;

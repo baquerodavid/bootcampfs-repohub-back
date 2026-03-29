@@ -19,10 +19,10 @@ const bootcampRepoController = {
       res.status(500).json({ error: 'Server error' });
     }
   },
-  async getById(req, res) {
+  async getBySlug(req, res) {
     try {
-      const id = req.params._id;
-      const repo = await BootcampRepo.findById(id);
+      const slugUrl = req.params.slug;
+      const repo = await BootcampRepo.findOne({slug: slugUrl});
       res.json(repo);
     } catch (error) {
       console.error(error);
