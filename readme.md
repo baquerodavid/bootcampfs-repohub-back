@@ -68,10 +68,8 @@ POST /bootcamp-repos
 ### Obtener todos los repositorios  
 GET /bootcamp-repos  
 
-### Obtener un repositorio por ID  
-GET /bootcamp-repos/:id  
-
-*(Más adelante se pueden añadir endpoints como update/delete)*
+### Obtener un repositorio por slug  
+GET /bootcamp-repos/:slug  
 
 ---
 
@@ -101,25 +99,15 @@ Este backend da soporte a una aplicación frontend que:
 - Muestra repositorios en formato de tarjetas  
 - Permite ver el detalle de cada proyecto  
 - Destaca aprendizajes clave  
-- Servirá como base para una web de portfolio personal  
+- Servirá como base para incluirla e integrarla en mi página web personal  
 
 ---
 
 ## 🖥️ Frontend
 
-El frontend estará desarrollado en React y consumirá esta API.
+El frontend está desarrollado en React y consume esta API.
 
-👉 Repositorio pendiente de añadir  
-
----
-
-## 🧠 Mejoras futuras
-
-- Añadir validaciones  
-- Implementar paginación  
-- Añadir filtros (por tipo, tecnologías, etc.)  
-- Añadir autenticación (panel admin)  
-- Soporte para imágenes  
+👉 Repositorio: https://github.com/baquerodavid/bootcampfs-repohub-app
 
 ---
 
@@ -146,10 +134,11 @@ Se prevé su evolución con nuevas funcionalidades como:
 - Añadir validaciones  
 - Implementar paginación  
 - Añadir autenticación (panel admin)  
-- Soporte para imágenes  
+- Añadir más endpoints (actualización, eliminación)  
 
 ---
 
 ## 👤 Autor
 
 David Baquero
+🔗 https://www.davidbaquero.com
