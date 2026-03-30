@@ -12,8 +12,15 @@ const bootcampRepoController = {
   },
   async getAll(req, res) {
     try {
-      const repo = await BootcampRepo.find();
-      res.json(repo);
+      let repos;
+
+      if (!req.query.type) {
+        repos = await BootcampRepo.find();
+      } else {
+        repos = await BootcampRepo.find({ type: req.query.type });
+      }
+
+      res.json(repos);
     } catch (error) {
       console.error(error);
       res.status(500).json({ error: 'Server error' });
