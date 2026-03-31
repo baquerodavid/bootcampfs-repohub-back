@@ -70,16 +70,16 @@ npm start
 ## 📡 Endpoints de la API
 
 URL base:  
-/bootcamp-repos  
+`/bootcamp-repos`  
 
 ### Crear un repositorio  
-POST /bootcamp-repos  
+`POST /bootcamp-repos`  
 
 ### Obtener todos los repositorios  
-GET /bootcamp-repos  
+`GET /bootcamp-repos`  
 
 ### Obtener un repositorio por slug  
-GET /bootcamp-repos/:slug  
+`GET /bootcamp-repos/:slug`  
 
 ---
 
@@ -150,4 +150,4 @@ Se prevé su evolución con nuevas funcionalidades como:
 
 ## 👤 Autor
 
-[David Baquero](https://www.davidbaquero.com)
+David Baquero: https://www.davidbaquero.com
