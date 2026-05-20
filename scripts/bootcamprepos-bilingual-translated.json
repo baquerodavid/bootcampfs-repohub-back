@@ -1,0 +1,1179 @@
+[
+  {
+    "_id": {
+      "$oid": "69bc386f9c73268281443e11"
+    },
+    "title": {
+      "es": "Tienda de Ropa - Backend",
+      "en": "Clothing Store - Backend"
+    },
+    "summary": {
+      "es": "API backend con SSR y dashboard admin para gestión de productos en una tienda de ropa.",
+      "en": "Backend API with SSR and an admin dashboard for managing products in a clothing store."
+    },
+    "description": {
+      "es": "Aplicación backend desarrollada con Node.js, Express y MongoDB Atlas que permite gestionar una tienda de ropa con catálogo público y panel de administración. Incluye renderizado SSR mediante template literals, API REST en formato JSON, documentación con Swagger, subida de imágenes con Multer y Cloudinary, y arquitectura MVC bien estructurada. El proyecto permite crear, editar, eliminar y visualizar productos, así como gestionar imágenes en la nube.",
+      "en": "Backend application built with Node.js, Express, and MongoDB Atlas to manage a clothing store with a public catalog and an admin panel. It includes SSR rendering with template literals, a JSON REST API, Swagger documentation, image uploads with Multer and Cloudinary, and a well-structured MVC architecture. The project supports creating, editing, deleting, and viewing products, as well as managing product images in the cloud."
+    },
+    "type": "project",
+    "keyLearning": {
+      "es": "Arquitectura MVC y desarrollo completo de backend con SSR y API REST.",
+      "en": "MVC architecture and end-to-end backend development with SSR and a REST API."
+    },
+    "takeaways": [
+      {
+        "es": "SSR con literals template",
+        "en": "SSR with literals template",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f16"
+        }
+      },
+      {
+        "es": "CRUD con MongoDB",
+        "en": "CRUD with MongoDB",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f17"
+        }
+      },
+      {
+        "es": "Integración Cloudinary",
+        "en": "Cloudinary integration",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f18"
+        }
+      },
+      {
+        "es": "Documentación Swagger",
+        "en": "Swagger documentation",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f19"
+        }
+      },
+      {
+        "es": "Arquitectura MVC",
+        "en": "MVC architecture",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f1a"
+        }
+      }
+    ],
+    "tags": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "Cloudinary",
+      "Multer",
+      "Swagger",
+      "SSR",
+      "HTML",
+      "CSS"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-project-break-store",
+    "urlApp": "https://bootcampfs-project-break-store.onrender.com/",
+    "slug": "tienda-ropa-backend",
+    "featured": true,
+    "createdAt": {
+      "$date": "2026-03-19T17:54:55.634Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:24.495Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bc3ab59c73268281443e13"
+    },
+    "title": {
+      "es": "Dashboard Interactivo - Frontend",
+      "en": "Interactive Dashboard - Frontend"
+    },
+    "summary": {
+      "es": "Dashboard con reloj, clima, generador de contraseñas y gestor de links usando JavaScript.",
+      "en": "JavaScript dashboard with a clock, weather module, password generator, and link manager."
+    },
+    "description": {
+      "es": "Aplicación frontend desarrollada con HTML, CSS y JavaScript que consiste en un dashboard interactivo compuesto por varios módulos independientes: un reloj digital con fecha y mensajes dinámicos según la hora, una estación meteorológica consumiendo una API externa, un generador de contraseñas seguras configurable y un gestor de links con persistencia en localStorage. Incluye además imágenes de fondo dinámicas que cambian automáticamente. El proyecto se centra en la manipulación del DOM, la asincronía con fetch y la organización modular del código.",
+      "en": "Frontend application built with HTML, CSS, and JavaScript as an interactive dashboard made up of several independent modules: a digital clock with date and time-based dynamic messages, a weather widget consuming an external API, a configurable secure password generator, and a link manager persisted in localStorage. It also includes dynamic background images that change automatically. The project focuses on DOM manipulation, asynchronous fetch requests, and modular JavaScript organization."
+    },
+    "type": "project",
+    "keyLearning": {
+      "es": "Manipulación del DOM y consumo de APIs en JavaScript.",
+      "en": "DOM manipulation and API consumption with JavaScript."
+    },
+    "takeaways": [
+      {
+        "es": "DOM manipulation",
+        "en": "DOM manipulation",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f1c"
+        }
+      },
+      {
+        "es": "Fetch API",
+        "en": "Fetch API",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f1d"
+        }
+      },
+      {
+        "es": "LocalStorage",
+        "en": "LocalStorage",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f1e"
+        }
+      },
+      {
+        "es": "Async JavaScript",
+        "en": "Async JavaScript",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f1f"
+        }
+      },
+      {
+        "es": "Modular JS",
+        "en": "Modular JavaScript",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f20"
+        }
+      }
+    ],
+    "tags": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "DOM",
+      "API",
+      "LocalStorage",
+      "Fetch"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-project-break-dashboard",
+    "urlApp": "https://baquerodavid.github.io/bootcampfs-project-break-dashboard/",
+    "slug": "dashboard-interactivo",
+    "featured": false,
+    "createdAt": {
+      "$date": "2026-03-19T18:04:37.438Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:24.548Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bc3ba19c73268281443e16"
+    },
+    "title": {
+      "es": "DevelopFlix - Web de Películas",
+      "en": "DevelopFlix - Movie Web App"
+    },
+    "summary": {
+      "es": "Aplicación web que muestra películas filtradas por género usando JavaScript y manipulación del DOM.",
+      "en": "Web app that displays movies filtered by genre using JavaScript and DOM manipulation."
+    },
+    "description": {
+      "es": "Proyecto frontend desarrollado con HTML, CSS y JavaScript que muestra un listado de películas organizadas por género a partir de un dataset local. La aplicación filtra películas por categorías como acción, thriller y aventura usando métodos de array e iteraciones, y renderiza dinámicamente en el DOM la imagen y el título de cada película. El proyecto se centra en la manipulación del DOM, el uso de datos estructurados y la lógica de filtrado en JavaScript.",
+      "en": "Frontend project built with HTML, CSS, and JavaScript that displays a movie list organized by genre from a local dataset. The application filters movies by categories such as action, thriller, and adventure using array methods and iterations, then dynamically renders each movie image and title in the DOM. The project focuses on DOM manipulation, structured data, and filtering logic in JavaScript."
+    },
+    "type": "challenge",
+    "keyLearning": {
+      "es": "Filtrado de datos y renderizado dinámico en el DOM con JavaScript.",
+      "en": "Data filtering and dynamic DOM rendering with JavaScript."
+    },
+    "takeaways": [
+      {
+        "es": "Array methods",
+        "en": "Array methods",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f22"
+        }
+      },
+      {
+        "es": "DOM manipulation",
+        "en": "DOM manipulation",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f23"
+        }
+      },
+      {
+        "es": "Data filtering",
+        "en": "Data filtering",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f24"
+        }
+      },
+      {
+        "es": "Dynamic rendering",
+        "en": "Dynamic rendering",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f25"
+        }
+      }
+    ],
+    "tags": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "DOM",
+      "Arrays"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-js-developflix/",
+    "urlApp": "https://baquerodavid.github.io/bootcampfs-js-developflix/",
+    "slug": "developflix-web-films",
+    "featured": false,
+    "createdAt": {
+      "$date": "2026-03-19T18:08:33.792Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:24.596Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bc3c489c73268281443e18"
+    },
+    "title": {
+      "es": "Rick and Morty - Personajes con Paginación",
+      "en": "Rick and Morty - Paginated Characters"
+    },
+    "summary": {
+      "es": "Aplicación web que muestra personajes de Rick and Morty consumiendo una API con paginación.",
+      "en": "Web app that displays Rick and Morty characters from an API with pagination."
+    },
+    "description": {
+      "es": "Challenge frontend desarrollado con HTML, CSS y JavaScript que consume la API pública de Rick and Morty para mostrar un listado paginado de personajes. La aplicación renderiza dinámicamente en el DOM la imagen, el nombre y la especie de cada personaje, e incorpora navegación entre páginas mediante botones de siguiente y anterior. El proyecto se centra en el uso de fetch, la gestión de datos asíncronos, la paginación y la manipulación del DOM.",
+      "en": "Frontend challenge built with HTML, CSS, and JavaScript that consumes the public Rick and Morty API to display a paginated list of characters. The application dynamically renders each character’s image, name, and species in the DOM, and includes next and previous buttons to move between pages. The project focuses on fetch, asynchronous data handling, pagination, and DOM manipulation."
+    },
+    "type": "challenge",
+    "keyLearning": {
+      "es": "Consumo de APIs y gestión de paginación en JavaScript.",
+      "en": "API consumption and pagination management with JavaScript."
+    },
+    "takeaways": [
+      {
+        "es": "Fetch API",
+        "en": "Fetch API",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f27"
+        }
+      },
+      {
+        "es": "Pagination",
+        "en": "Pagination",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f28"
+        }
+      },
+      {
+        "es": "DOM manipulation",
+        "en": "DOM manipulation",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f29"
+        }
+      },
+      {
+        "es": "Async JavaScript",
+        "en": "Async JavaScript",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f2a"
+        }
+      }
+    ],
+    "tags": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Fetch",
+      "API",
+      "DOM"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-js-fetch-api-pagination-rick-morty/",
+    "urlApp": "https://baquerodavid.github.io/bootcampfs-js-fetch-api-pagination-rick-morty/",
+    "slug": "rick-and-morty-pagination",
+    "featured": false,
+    "createdAt": {
+      "$date": "2026-03-19T18:11:20.770Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:24.645Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bc3cb89c73268281443e1b"
+    },
+    "title": {
+      "es": "Pokémon Fetch App",
+      "en": "Pokémon Fetch App"
+    },
+    "summary": {
+      "es": "Aplicación web que obtiene información de Pokémon usando Fetch y una API pública.",
+      "en": "Web app that retrieves Pokémon information using Fetch and a public API."
+    },
+    "description": {
+      "es": "Challenge frontend desarrollado con HTML, CSS y JavaScript que consume la PokeAPI para obtener y mostrar información de distintos Pokémon seleccionados por el usuario. La aplicación permite elegir un Pokémon desde un selector y, mediante una petición fetch, mostrar datos como nombre, imagen, tipo, altura y peso en el DOM. El proyecto se centra en el uso de Fetch, la manipulación básica del DOM y la interacción con APIs externas.",
+      "en": "Frontend challenge built with HTML, CSS, and JavaScript that consumes the PokeAPI to retrieve and display information about different Pokémon selected by the user. The application lets users choose a Pokémon from a selector and, through a fetch request, displays data such as name, image, type, height, and weight in the DOM. The project focuses on Fetch, basic DOM manipulation, and working with external APIs."
+    },
+    "type": "challenge",
+    "keyLearning": {
+      "es": "Uso de Fetch para consumir APIs y mostrar datos en el DOM.",
+      "en": "Using Fetch to consume APIs and display data in the DOM."
+    },
+    "takeaways": [
+      {
+        "es": "Fetch API",
+        "en": "Fetch API",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f2c"
+        }
+      },
+      {
+        "es": "API consumption",
+        "en": "API consumption",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f2d"
+        }
+      },
+      {
+        "es": "DOM manipulation",
+        "en": "DOM manipulation",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f2e"
+        }
+      },
+      {
+        "es": "Event handling",
+        "en": "Event handling",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f2f"
+        }
+      }
+    ],
+    "tags": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Fetch",
+      "API",
+      "DOM"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-js-fetch-api-select-pokemon/",
+    "urlApp": "https://baquerodavid.github.io/bootcampfs-js-fetch-api-select-pokemon/",
+    "slug": "pokemon-fetch-app",
+    "featured": false,
+    "createdAt": {
+      "$date": "2026-03-19T18:13:12.528Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:24.693Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bc45bb9c73268281443e1d"
+    },
+    "title": {
+      "es": "Crypto Tracker - React Challenge",
+      "en": "Crypto Tracker - React Challenge"
+    },
+    "summary": {
+      "es": "Aplicación en React para consultar criptomonedas usando CoinCap, rutas dinámicas y gestión de estado.",
+      "en": "React app for exploring cryptocurrencies with CoinCap, dynamic routes, and state management."
+    },
+    "description": {
+      "es": "Challenge desarrollado con React y Vite para hacer seguimiento de criptomonedas del mercado consumiendo la API de CoinCap. La aplicación incluye una vista principal con el listado de criptomonedas, una vista de detalle para cada moneda mediante rutas dinámicas con React Router y, como bonus, una sección de favoritos persistida en localStorage. El proyecto se centra en el uso de hooks como useState y useEffect, la configuración de rutas, el consumo de APIs y la organización de una aplicación SPA en React.",
+      "en": "Challenge built with React and Vite to track market cryptocurrencies by consuming the CoinCap API. The application includes a main view with a cryptocurrency list, a detail view for each coin using dynamic routes with React Router, and a bonus favorites section persisted in localStorage. The project focuses on hooks such as useState and useEffect, route configuration, API consumption, and organizing a React SPA."
+    },
+    "type": "challenge",
+    "keyLearning": {
+      "es": "Uso de React hooks y React Router para construir una SPA conectada a una API.",
+      "en": "Using React hooks and React Router to build an API-connected SPA."
+    },
+    "takeaways": [
+      {
+        "es": "useState",
+        "en": "useState",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f31"
+        }
+      },
+      {
+        "es": "useEffect",
+        "en": "useEffect",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f32"
+        }
+      },
+      {
+        "es": "React Router",
+        "en": "React Router",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f33"
+        }
+      },
+      {
+        "es": "API consumption",
+        "en": "API consumption",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f34"
+        }
+      },
+      {
+        "es": "LocalStorage",
+        "en": "LocalStorage",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f35"
+        }
+      }
+    ],
+    "tags": [
+      "React",
+      "Vite",
+      "JavaScript",
+      "React Router",
+      "API",
+      "useState",
+      "useEffect",
+      "LocalStorage",
+      "CSS"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-react-crypto-tracker",
+    "urlApp": "https://bootcampfs-crypto-tracker.netlify.app/",
+    "slug": "crypto-tracker-react-challenge",
+    "featured": false,
+    "createdAt": {
+      "$date": "2026-03-19T18:51:39.379Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:24.741Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bc48df9c73268281443e1f"
+    },
+    "title": {
+      "es": "Notas Adhesivas con React",
+      "en": "Sticky Notes with React"
+    },
+    "summary": {
+      "es": "Aplicación de notas tipo post-it con React usando contexto y custom hooks.",
+      "en": "Post-it style notes app built with React using context and custom hooks."
+    },
+    "description": {
+      "es": "Challenge desarrollado con React que implementa una aplicación de notas adhesivas (post-it) donde los usuarios pueden crear, visualizar y eliminar notas de distintos colores. El proyecto utiliza useState para gestionar el estado, useContext para manejar el color global de las notas y un custom hook (useNotes) para encapsular la lógica de creación y eliminación. La aplicación está estructurada en componentes reutilizables y sigue una arquitectura modular típica de aplicaciones React.",
+      "en": "React challenge that implements a sticky notes app where users can create, view, and delete notes in different colors. The project uses useState for state management, useContext to manage the global note color, and a custom hook called useNotes to encapsulate the creation and deletion logic. The application is structured with reusable components and follows a modular architecture commonly used in React apps."
+    },
+    "type": "challenge",
+    "keyLearning": {
+      "es": "Uso de useContext y custom hooks para gestionar estado y lógica en React.",
+      "en": "Using useContext and custom hooks to manage state and logic in React."
+    },
+    "takeaways": [
+      {
+        "es": "useState",
+        "en": "useState",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f37"
+        }
+      },
+      {
+        "es": "useContext",
+        "en": "useContext",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f38"
+        }
+      },
+      {
+        "es": "Custom Hooks",
+        "en": "Custom Hooks",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f39"
+        }
+      },
+      {
+        "es": "Component architecture",
+        "en": "Component architecture",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f3a"
+        }
+      },
+      {
+        "es": "State management",
+        "en": "State management",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f3b"
+        }
+      }
+    ],
+    "tags": [
+      "React",
+      "JavaScript",
+      "useState",
+      "useContext",
+      "Custom Hooks",
+      "Components",
+      "CSS"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-react-sticky-notes-app",
+    "urlApp": "https://bootcampfs-sticky-notes-app.netlify.app/",
+    "slug": "sticky-notes-app",
+    "featured": false,
+    "createdAt": {
+      "$date": "2026-03-19T19:05:03.876Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:24.799Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bc4acc9c73268281443e21"
+    },
+    "title": {
+      "es": "Chuck Norris Jokes con LocalStorage",
+      "en": "Chuck Norris Jokes with LocalStorage"
+    },
+    "summary": {
+      "es": "Aplicación web que obtiene chistes de Chuck Norris y los guarda en localStorage.",
+      "en": "Web app that fetches Chuck Norris jokes and saves them in localStorage."
+    },
+    "description": {
+      "es": "Challenge frontend desarrollado con HTML, CSS y JavaScript que consume la API de Chuck Norris para obtener chistes aleatorios y mostrarlos en una lista en pantalla. La aplicación permite persistir los chistes obtenidos en localStorage para mantenerlos tras recargar la página, así como eliminarlos individualmente y, como mejora, vaciar la lista completa. El proyecto se centra en el uso de fetch, la manipulación del DOM, la persistencia de datos en el navegador y la gestión de eventos.",
+      "en": "Frontend challenge built with HTML, CSS, and JavaScript that consumes the Chuck Norris API to fetch random jokes and display them in a list on screen. The application persists fetched jokes in localStorage so they remain after reloading the page, allows users to delete jokes individually, and includes an improvement to clear the full list. The project focuses on fetch, DOM manipulation, browser data persistence, and event handling."
+    },
+    "type": "challenge",
+    "keyLearning": {
+      "es": "Persistencia en localStorage combinada con consumo de APIs y renderizado dinámico.",
+      "en": "Combining localStorage persistence with API consumption and dynamic rendering."
+    },
+    "takeaways": [
+      {
+        "es": "Fetch API",
+        "en": "Fetch API",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f3d"
+        }
+      },
+      {
+        "es": "LocalStorage",
+        "en": "LocalStorage",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f3e"
+        }
+      },
+      {
+        "es": "DOM manipulation",
+        "en": "DOM manipulation",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f3f"
+        }
+      },
+      {
+        "es": "Event handling",
+        "en": "Event handling",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f40"
+        }
+      }
+    ],
+    "tags": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Fetch",
+      "API",
+      "LocalStorage",
+      "DOM"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-js-api-localstorage-chucklistjoke",
+    "urlApp": "https://baquerodavid.github.io/bootcampfs-js-api-localstorage-chucklistjoke/",
+    "slug": "chuck-norris-localstorage",
+    "featured": false,
+    "createdAt": {
+      "$date": "2026-03-19T19:13:16.930Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:24.852Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bc4bb09c73268281443e23"
+    },
+    "title": {
+      "es": "Bomba Game",
+      "en": "Bomb Game"
+    },
+    "summary": {
+      "es": "Juego interactivo con cuenta atrás y número aleatorio usando JavaScript.",
+      "en": "Interactive JavaScript game with a countdown and a random number challenge."
+    },
+    "description": {
+      "es": "Challenge frontend desarrollado con HTML, CSS y JavaScript en el que el usuario debe introducir un número del 1 al 3 antes de que termine una cuenta atrás de 5 segundos. Una vez finalizado el tiempo, la aplicación genera o revela el número aleatorio y compara el valor introducido por el usuario con el correcto para mostrar el resultado del juego. El proyecto se centra en la gestión de temporizadores con setTimeout y setInterval, la lógica condicional, la asincronía y la manipulación del DOM.",
+      "en": "Frontend challenge built with HTML, CSS, and JavaScript where the user must enter a number from 1 to 3 before a 5-second countdown ends. Once time is up, the application generates or reveals the random number and compares it with the user’s input to display the game result. The project focuses on timer management with setTimeout and setInterval, conditional logic, asynchronous behavior, and DOM manipulation."
+    },
+    "type": "challenge",
+    "keyLearning": {
+      "es": "Uso de temporizadores y lógica asíncrona en JavaScript.",
+      "en": "Using timers and asynchronous logic in JavaScript."
+    },
+    "takeaways": [
+      {
+        "es": "setTimeout",
+        "en": "setTimeout",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f42"
+        }
+      },
+      {
+        "es": "setInterval",
+        "en": "setInterval",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f43"
+        }
+      },
+      {
+        "es": "Async logic",
+        "en": "Async logic",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f44"
+        }
+      },
+      {
+        "es": "DOM manipulation",
+        "en": "DOM manipulation",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f45"
+        }
+      }
+    ],
+    "tags": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "DOM",
+      "setTimeout",
+      "setInterval"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-js-timers-boom",
+    "urlApp": "https://baquerodavid.github.io/bootcampfs-js-timers-boom/",
+    "slug": "bomba-game",
+    "featured": false,
+    "createdAt": {
+      "$date": "2026-03-19T19:17:04.033Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:24.908Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bc4cbf9c73268281443e26"
+    },
+    "title": {
+      "es": "Réplica Landing Page Responsive",
+      "en": "Responsive Landing Page Replica"
+    },
+    "summary": {
+      "es": "Maquetación de una landing page replicando un diseño de referencia con HTML, CSS y media queries.",
+      "en": "Landing page layout replicated from a reference design using HTML, CSS, and media queries."
+    },
+    "description": {
+      "es": "Challenge frontend centrado en la maquetación de una landing page a partir de una imagen de referencia. El proyecto fue desarrollado con HTML y CSS, poniendo el foco en la fidelidad visual respecto al diseño original, la organización de la estructura semántica y la adaptación responsive mediante media queries para distintos tamaños de pantalla. El ejercicio trabaja especialmente la maquetación, el posicionamiento de elementos, la jerarquía visual y la capacidad de traducir un diseño estático a código.",
+      "en": "Frontend challenge focused on building a landing page layout from a reference image. The project was developed with HTML and CSS, with emphasis on visual fidelity to the original design, semantic structure, and responsive adaptation through media queries for different screen sizes. The exercise especially works on layout, element positioning, visual hierarchy, and the ability to translate a static design into code."
+    },
+    "type": "challenge",
+    "keyLearning": {
+      "es": "Maquetación responsive a partir de un diseño de referencia.",
+      "en": "Building a responsive layout from a reference design."
+    },
+    "takeaways": [
+      {
+        "es": "HTML structure",
+        "en": "HTML structure",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f47"
+        }
+      },
+      {
+        "es": "CSS layout",
+        "en": "CSS layout",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f48"
+        }
+      },
+      {
+        "es": "Responsive design",
+        "en": "Responsive design",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f49"
+        }
+      },
+      {
+        "es": "Media queries",
+        "en": "Media queries",
+        "_id": {
+          "$oid": "6a0ddfc040b2ef43dfb63f4a"
+        }
+      }
+    ],
+    "tags": [
+      "HTML",
+      "CSS",
+      "Responsive Design",
+      "Media Queries",
+      "Layout"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-entregable-landing-page",
+    "urlApp": "https://baquerodavid.github.io/bootcampfs-entregable-landing-page/",
+    "slug": "landing-page-responsive-replica",
+    "featured": false,
+    "createdAt": {
+      "$date": "2026-03-19T19:21:35.481Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:24.957Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69bda3708d13e76aab6c1df5"
+    },
+    "title": {
+      "es": "Theme Switcher con useContext",
+      "en": "Theme Switcher with useContext"
+    },
+    "summary": {
+      "es": "Aplicación en React que cambia el tema global entre modo claro y oscuro usando useContext.",
+      "en": "React app that switches the global theme between light and dark mode using useContext."
+    },
+    "description": {
+      "es": "Challenge desarrollado con React para practicar la gestión de estado global mediante useContext. La aplicación incluye varias páginas conectadas con React Router y un botón que permite alternar entre tema claro y tema oscuro, modificando el estado global y las clases CSS de la interfaz. El proyecto se centra en comprender cómo compartir estado entre componentes, estructurar una aplicación React en páginas y rutas, y aplicar cambios visuales globales a través de contexto.",
+      "en": "React challenge built to practice global state management with useContext. The application includes several pages connected with React Router and a button that toggles between light and dark mode by updating global state and applying CSS classes across the interface. The project focuses on understanding how to share state between components, structure a React app with pages and routes, and apply global visual changes through context."
+    },
+    "type": "challenge",
+    "keyLearning": {
+      "es": "Uso de useContext para gestionar estado global y aplicar cambios de tema en React.",
+      "en": "Using useContext to manage global state and apply theme changes in React."
+    },
+    "takeaways": [
+      {
+        "es": "useContext",
+        "en": "useContext",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f4c"
+        }
+      },
+      {
+        "es": "Global state",
+        "en": "Global state",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f4d"
+        }
+      },
+      {
+        "es": "React Router",
+        "en": "React Router",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f4e"
+        }
+      },
+      {
+        "es": "Theme switching",
+        "en": "Theme switching",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f4f"
+        }
+      }
+    ],
+    "tags": [
+      "React",
+      "JavaScript",
+      "useContext",
+      "React Router",
+      "CSS",
+      "State Management"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-react-usecontext-challenge",
+    "urlApp": "https://bootcampfs-usecontext-challenge.netlify.app/",
+    "slug": "theme-switcher-usecontext",
+    "featured": false,
+    "createdAt": {
+      "$date": "2026-03-20T19:43:44.786Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:25.012Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69caf53c185dc90253b0bd1c"
+    },
+    "title": {
+      "es": "CRUD de Tareas con Mongoose",
+      "en": "Task CRUD API with Mongoose"
+    },
+    "summary": {
+      "es": "API REST sencilla para gestionar tareas con Node.js, Express y MongoDB usando Mongoose.",
+      "en": "Simple REST API for managing tasks with Node.js, Express, MongoDB, and Mongoose."
+    },
+    "description": {
+      "es": "Workout backend desarrollado con Node.js, Express y MongoDB Atlas para practicar la creación de una API REST de tareas con operaciones CRUD completas. La aplicación permite crear, listar, buscar por id, actualizar, marcar como completada y eliminar tareas, siguiendo una estructura modular con configuración de base de datos, modelo, rutas y servidor. El proyecto se centra en afianzar el uso de Mongoose, la organización básica de un backend y la validación de endpoints con Postman.",
+      "en": "Backend workout built with Node.js, Express, and MongoDB Atlas to practice creating a task-based REST API with full CRUD operations. The application supports creating, listing, finding by ID, updating, marking as completed, and deleting tasks, following a modular structure with database configuration, model, routes, and server setup. The project focuses on strengthening Mongoose usage, basic backend organization, and endpoint validation with Postman."
+    },
+    "type": "workout",
+    "keyLearning": {
+      "es": "Construcción de una API CRUD con Express y Mongoose",
+      "en": "Building a CRUD API with Express and Mongoose."
+    },
+    "takeaways": [
+      {
+        "es": "Express routing",
+        "en": "Express routing",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f51"
+        }
+      },
+      {
+        "es": "Mongoose models",
+        "en": "Mongoose models",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f52"
+        }
+      },
+      {
+        "es": "CRUD operations",
+        "en": "CRUD operations",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f53"
+        }
+      },
+      {
+        "es": "Postman testing",
+        "en": "Postman testing",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f54"
+        }
+      }
+    ],
+    "tags": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "REST API",
+      "Postman",
+      "React"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-react-tasks-api-workout",
+    "urlApp": "",
+    "slug": "react-tasks-api",
+    "featured": false,
+    "createdAt": {
+      "$date": "2026-03-30T22:12:12.452Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:25.060Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69caf741185dc90253b0bd1e"
+    },
+    "title": {
+      "es": "Frontend React para CRUD de Tareas",
+      "en": "React Frontend for a Task CRUD API"
+    },
+    "summary": {
+      "es": "Aplicación en React que consume una API de tareas desarrollada con Node.js y MongoDB.",
+      "en": "React application that consumes a task API built with Node.js and MongoDB."
+    },
+    "description": {
+      "es": "Workout frontend desarrollado en React para consumir una API REST de tareas previamente creada con Node.js, Express y MongoDB. La aplicación permite crear, listar, actualizar y eliminar tareas mediante peticiones HTTP al backend, integrando fetch/axios para la comunicación cliente-servidor. El proyecto se centra en comprender cómo conectar un frontend con una API, gestionar estado en React y reflejar cambios en la interfaz en tiempo real tras cada operación CRUD.",
+      "en": "Frontend workout built with React to consume a REST API for tasks previously created with Node.js, Express, and MongoDB. The application allows users to create, list, update, and delete tasks through HTTP requests to the backend, integrating fetch or axios for client-server communication. The project focuses on understanding how to connect a frontend to an API, manage state in React, and reflect interface updates in real time after each CRUD operation."
+    },
+    "type": "workout",
+    "keyLearning": {
+      "es": "Consumo de APIs REST desde React y sincronización de estado con el backend",
+      "en": "Consuming REST APIs from React and synchronizing frontend state with the backend."
+    },
+    "takeaways": [
+      {
+        "es": "API consumption",
+        "en": "API consumption",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f56"
+        }
+      },
+      {
+        "es": "CRUD integration",
+        "en": "CRUD integration",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f57"
+        }
+      },
+      {
+        "es": "React state",
+        "en": "React state",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f58"
+        }
+      },
+      {
+        "es": "HTTP requests",
+        "en": "HTTP requests",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f59"
+        }
+      }
+    ],
+    "tags": [
+      "React",
+      "JavaScript",
+      "API REST",
+      "Fetch",
+      "Node.js",
+      "Frontend",
+      "CRUD"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-react-tasks-app-workout",
+    "urlApp": "",
+    "slug": "react-tasks-app-workout",
+    "featured": false,
+    "createdAt": {
+      "$date": "2026-03-30T22:20:49.564Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:25.110Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69caf7db185dc90253b0bd20"
+    },
+    "title": {
+      "es": "Crear Tareas desde React",
+      "en": "Creating Tasks from React"
+    },
+    "summary": {
+      "es": "Aplicación en React que crea nuevas tareas en MongoDB consumiendo una API Node.js.",
+      "en": "React app that creates new tasks in MongoDB by consuming a Node.js API."
+    },
+    "description": {
+      "es": "Challenge frontend desarrollado en React que amplía un CRUD de tareas previo permitiendo crear nuevas tareas directamente desde la interfaz. La aplicación reutiliza una API backend en Node.js, Express y MongoDB, y añade un formulario con input y botón para enviar nuevas tareas mediante una petición POST al endpoint correspondiente. El proyecto se centra en integrar formularios en React, enviar datos al backend y actualizar la interfaz con la nueva información persistida en base de datos.",
+      "en": "Frontend challenge built with React that extends a previous task CRUD by allowing users to create new tasks directly from the interface. The application reuses a backend API built with Node.js, Express, and MongoDB, and adds a form with an input and button to send new tasks through a POST request to the corresponding endpoint. The project focuses on integrating forms in React, sending data to the backend, and updating the interface with newly persisted database information."
+    },
+    "type": "challenge",
+    "keyLearning": {
+      "es": "Envío de datos desde React al backend mediante peticiones POST",
+      "en": "Sending data from React to the backend through POST requests."
+    },
+    "takeaways": [
+      {
+        "es": "POST requests",
+        "en": "POST requests",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f5b"
+        }
+      },
+      {
+        "es": "Form handling",
+        "en": "Form handling",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f5c"
+        }
+      },
+      {
+        "es": "React components",
+        "en": "React components",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f5d"
+        }
+      },
+      {
+        "es": "API integration",
+        "en": "API integration",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f5e"
+        }
+      }
+    ],
+    "tags": [
+      "React",
+      "JavaScript",
+      "Fetch",
+      "API REST",
+      "Node.js",
+      "MongoDB",
+      "Forms"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-react-tasks-app-challenge",
+    "urlApp": "",
+    "slug": "react-tasks-app-challenge",
+    "featured": false,
+    "createdAt": {
+      "$date": "2026-03-30T22:23:23.644Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:25.158Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69caf94c185dc90253b0bd22"
+    },
+    "title": {
+      "es": "Data Management App - Frontend",
+      "en": "Data Management App - Frontend"
+    },
+    "summary": {
+      "es": "SPA en JavaScript Vanilla con login persistente, peticiones protegidas y renderizado dinámico de datos.",
+      "en": "Vanilla JavaScript SPA with persistent login, protected requests, and dynamic data rendering."
+    },
+    "description": {
+      "es": "Extra-workout frontend desarrollado con HTML, CSS y JavaScript Vanilla para interactuar con una API de datos de forma segura y dinámica. La aplicación implementa un sistema de login persistente almacenando credenciales en localStorage, protege el acceso a determinadas pantallas mediante comprobaciones en cliente y realiza peticiones fetch autenticadas añadiendo las credenciales en los headers. Además, renderiza datos dinámicamente en la interfaz usando innerHTML y template literals, e incluye gestión de errores de autenticación para limpiar la sesión y redirigir al usuario cuando el servidor devuelve un 401 Unauthorized.",
+      "en": "Extra workout frontend built with HTML, CSS, and Vanilla JavaScript to interact with a data API in a secure and dynamic way. The application implements a persistent login system by storing credentials in localStorage, protects access to certain screens with client-side checks, and performs authenticated fetch requests by adding credentials to the request headers. It also dynamically renders data in the interface using innerHTML and template literals, and handles authentication errors by clearing the session and redirecting the user when the server returns a 401 Unauthorized response."
+    },
+    "type": "extra-workout",
+    "keyLearning": {
+      "es": "Gestión de autenticación en cliente con persistencia en localStorage y peticiones protegidas",
+      "en": "Managing client-side authentication with localStorage persistence and protected requests."
+    },
+    "takeaways": [
+      {
+        "es": "LocalStorage auth",
+        "en": "LocalStorage auth",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f60"
+        }
+      },
+      {
+        "es": "Fetch headers",
+        "en": "Fetch headers",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f61"
+        }
+      },
+      {
+        "es": "Route guard",
+        "en": "Route guard",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f62"
+        }
+      },
+      {
+        "es": "Dynamic rendering",
+        "en": "Dynamic rendering",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f63"
+        }
+      }
+    ],
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Fetch API",
+      "LocalStorage",
+      "Authentication",
+      "SPA"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-cors-refuerzo-frontend",
+    "urlApp": "",
+    "slug": "data-management-app-frontend",
+    "featured": false,
+    "createdAt": {
+      "$date": "2026-03-30T22:29:32.366Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:25.207Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "69caf99a185dc90253b0bd24"
+    },
+    "title": {
+      "es": "Data & Auth API - Backend",
+      "en": "Data & Auth API - Backend"
+    },
+    "summary": {
+      "es": "API en Node.js y Express con autenticación por headers, CORS y operaciones CRUD protegidas.",
+      "en": "Node.js and Express API with header-based authentication, CORS, and protected CRUD operations."
+    },
+    "description": {
+      "es": "Extra-workout backend desarrollado con Node.js y Express para gestionar datos de forma segura mediante autenticación personalizada y control de acceso entre cliente y servidor. La API implementa un middleware de autorización que valida credenciales enviadas en headers, una configuración estricta de CORS para permitir únicamente peticiones desde el frontend autorizado y un conjunto completo de operaciones CRUD sobre los datos. Además, incorpora un endpoint de búsqueda en servidor para filtrar registros y reforzar la lógica de negocio del lado backend.",
+      "en": "Extra workout backend built with Node.js and Express to manage data securely through custom authentication and client-server access control. The API implements an authorization middleware that validates credentials sent in request headers, a strict CORS configuration that only allows requests from the authorized frontend, and a complete set of CRUD operations over the data. It also includes a server-side search endpoint to filter records and reinforce backend-side business logic."
+    },
+    "type": "extra-workout",
+    "keyLearning": {
+      "es": "Protección de rutas en Express mediante middleware y autenticación por headers",
+      "en": "Protecting Express routes with middleware and header-based authentication."
+    },
+    "takeaways": [
+      {
+        "es": "Express middleware",
+        "en": "Express middleware",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f65"
+        }
+      },
+      {
+        "es": "CORS control",
+        "en": "CORS control",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f66"
+        }
+      },
+      {
+        "es": "Header auth",
+        "en": "Header auth",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f67"
+        }
+      },
+      {
+        "es": "Protected CRUD",
+        "en": "Protected CRUD",
+        "_id": {
+          "$oid": "6a0ddfc140b2ef43dfb63f68"
+        }
+      }
+    ],
+    "tags": [
+      "Node.js",
+      "Express",
+      "JavaScript",
+      "CORS",
+      "Middleware",
+      "Authentication",
+      "REST API"
+    ],
+    "urlRepo": "https://github.com/baquerodavid/bootcampfs-cors-refuerzo-backend",
+    "urlApp": "",
+    "slug": "data-auth-api-backend",
+    "featured": false,
+    "createdAt": {
+      "$date": "2026-03-30T22:30:50.950Z"
+    },
+    "updatedAt": {
+      "$date": "2026-05-20T16:22:25.255Z"
+    },
+    "__v": 0
+  }
+]
