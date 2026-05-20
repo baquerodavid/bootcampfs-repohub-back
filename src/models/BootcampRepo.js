@@ -2,14 +2,20 @@ const mongoose = require('mongoose');
 
 const listType = ['workout', 'challenge', 'project', 'extra-workout']
 
+const localizedString = {
+  es: { type: String, required: true },
+
+  en: { type: String, required: true },
+};
+
 const BootcampRepoSchema = new mongoose.Schema(
   {
-    title: { type: String, required: true },
-    summary: { type: String, required: true },
-    description: { type: String, required: true },
+    title: localizedString,
+    summary: localizedString,
+    description: localizedString,
     type: { type: String, enum: listType, required: true },
-    keyLearning: { type: String, required: true },
-    takeaways: [{ type: String, required: true }],
+    keyLearning: localizedString,
+    takeaways: [localizedString],
     tags: [{ type: String, required: true }],
     urlRepo: { type: String, required: true },
     urlApp: { type: String },
